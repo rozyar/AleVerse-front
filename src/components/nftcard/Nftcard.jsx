@@ -23,7 +23,7 @@ const Nftcard = (props) => {
         <div className="wrapper">
           <div className="card_price">
             <img src={icon} alt="cardIcon" className="card_icon"></img>
-            <span>{props.price}</span>
+            <span>{props.price} ETH</span>
           </div>
           <div className="card_countdown">
             <img src={clock} alt="" className="card_icon"></img>

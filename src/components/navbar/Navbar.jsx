@@ -10,10 +10,10 @@ const Menu = () => (
       <Link to='/' element>Home</Link> 
     </p>
     <p>
-      <a href="#home">Explore</a>
+    <Link to="/Explore">Explore</Link>
     </p>
     <p>
-      <a href="#home">Create</a>
+      <Link to="/create">Create</Link>
     </p>
   </>
 );

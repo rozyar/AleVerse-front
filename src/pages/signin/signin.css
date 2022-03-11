@@ -1,0 +1,26 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+form button {
+    flex: 0.6;
+    width: 20%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 27px;
+    background:#FF4820;
+    color: #FFF;
+    cursor: pointer;
+    outline:none;
+    padding: 0 1rem;
+    border:none;
+    margin-top:2rem;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
